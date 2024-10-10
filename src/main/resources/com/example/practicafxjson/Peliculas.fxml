@@ -6,7 +6,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.practicafxjson.HelloController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.practicafxjson.PeliculasController">
    <children>
       <Button fx:id="btnImoportar" layoutX="273.0" layoutY="290.0" mnemonicParsing="false" onAction="#btnImportar" text="Importar" />
       <Label layoutX="133.0" layoutY="89.0" prefHeight="30.0" prefWidth="55.0" text="Titulo" />
@@ -17,7 +17,7 @@
       <TextField fx:id="txtFecha" layoutX="208.0" layoutY="138.0" />
       <TextField fx:id="txtGenero" layoutX="208.0" layoutY="178.0" />
       <TextField fx:id="txtDirector" layoutX="208.0" layoutY="218.0" />
-      <Label layoutX="438.0" layoutY="29.0" prefHeight="30.0" prefWidth="118.0" text="Listado de peliculas" />
-      <ListView fx:id="listPelicula" layoutX="386.0" layoutY="89.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="436.0" layoutY="36.0" prefHeight="30.0" prefWidth="118.0" text="Listado de peliculas" />
+      <ListView fx:id="listPelicula" layoutX="386.0" layoutY="89.0" onMouseClicked="#onImportar2" prefHeight="200.0" prefWidth="200.0" />
    </children>
 </AnchorPane>

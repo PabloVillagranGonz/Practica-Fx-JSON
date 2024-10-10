@@ -1,7 +1,6 @@
 package com.example.practicafxjson;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import javafx.beans.Observable;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -13,7 +12,7 @@ import javafx.scene.control.TextField;
 import java.io.File;
 import java.util.ArrayList;
 
-public class HelloController {
+public class PeliculasController {
 
     @FXML
     private Button btnImoportar;
